@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,18 +9,32 @@
       background: #f8f9fa;
       text-align: center;
       padding: 50px;
+      line-height: 1.6;
     }
     h1 {
       color: #333;
     }
-    .app-links {
-      margin-top: 40px;
+    .app-section {
+      margin: 30px auto;
+      max-width: 700px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: left;
     }
-    a {
-      display: block;
-      margin: 15px auto;
+    .app-section h2 {
+      margin-top: 0;
+      color: #0073e6;
+    }
+    .app-section p {
+      color: #555;
+      font-size: 16px;
+    }
+    .app-link {
+      display: inline-block;
+      margin-top: 15px;
       padding: 12px 20px;
-      width: 300px;
       background: #0073e6;
       color: white;
       text-decoration: none;
@@ -29,36 +42,89 @@
       font-size: 18px;
       transition: 0.3s;
     }
-    a:hover {
+    .app-link:hover {
       background: #005bb5;
     }
   </style>
 </head>
 <body>
-  <h1>MCP/AI/ML Applications- Designed by Randy Singh From KNet Consultig Group</h1>
+  <h1>KNet Designed Applications - Randy Singh</h1>
   <p>Click a button below to open an app:</p>
 
-  <div class="app-links">
-    <a href="https://k8kopgxw6rayvcezgdjh5u.streamlit.app/" target="_blank">
-      Supply Chain Risk Estimator
+  <!-- Supply Chain Risk Estimator -->
+  <div class="app-section">
+    <h2>Supply Chain Risk Estimator</h2>
+    <p>
+      The <strong>Supply Chain Risk Estimator</strong> analyzes SBOMs (Software Bills of Materials) 
+      to detect vulnerabilities, license risks, and supplier trust issues. 
+      Using an MCP (Model Control Pipeline) and AI/ML models, it classifies risks into 
+      Low, Medium, or High and visualizes them with charts and dashboards. 
+      Users can upload SBOM data, generate synthetic records, or export results for reporting.
+    </p>
+    <a class="app-link" href="https://k8kopgxw6rayvcezgdjh5u.streamlit.app/" target="_blank">
+      Open Application
     </a>
-    <a href="https://j8d42pf2utsqjnbpvpoetm.streamlit.app/" target="_blank">
-      MCP Cyber Threat Monitor
-    </a>
-    <a href="https://bh7rkqzyztp7xkol2mxcr5.streamlit.app/" target="_blank">
-      Dental Practice Manager
-    </a>
-    <a href="https://j8d42pf2utsqjnbpvpoetm.streamlit.app/" target="_blank">
-      MCP Cyber Threat Dashboard
-    </a>
-    <a href="https://7dq7jn4z7vcmd2br8tugpe.streamlit.app/" target="_blank">
-     Synthetic-F5-NETSCOUT-PCAP-Generator
-    </a>
-    <a href="https://geu9ytpucrlxm6sp4dxrdk.streamlit.app/" target="_blank">
-      Synthetic-Data-Generator
-    </a>
-
   </div>
+
+  <!-- MCP Cyber Threat Monitor -->
+  <div class="app-section">
+    <h2>MCP Cyber Threat Monitor</h2>
+    <p>
+      Tracks and visualizes cyber threat activity across multiple domains using the MCP pipeline. 
+      Provides real-time dashboards with trend analysis to monitor potential risks.
+    </p>
+    <a class="app-link" href="https://j8d42pf2utsqjnbpvpoetm.streamlit.app/" target="_blank">
+      Open Application
+    </a>
+  </div>
+
+  <!-- Dental Practice Manager -->
+  <div class="app-section">
+    <h2>Dental Practice Manager</h2>
+    <p>
+      A practice management tool for dental offices. Supports scheduling, billing, 
+      patient records, and task automation to streamline clinic operations.
+    </p>
+    <a class="app-link" href="https://bh7rkqzyztp7xkol2mxcr5.streamlit.app/" target="_blank">
+      Open Application
+    </a>
+  </div>
+
+  <!-- MCP Cyber Threat Dashboard -->
+  <div class="app-section">
+    <h2>MCP Cyber Threat Dashboard</h2>
+    <p>
+      A visualization-first dashboard for monitoring cyber threat intelligence 
+      and AI-detected anomalies in enterprise networks.
+    </p>
+    <a class="app-link" href="https://j8d42pf2utsqjnbpvpoetm.streamlit.app/" target="_blank">
+      Open Application
+    </a>
+  </div>
+
+  <!-- Synthetic-F5-NETSCOUT-PCAP-Generator -->
+  <div class="app-section">
+    <h2>Synthetic F5-NETSCOUT PCAP Generator</h2>
+    <p>
+      Generates synthetic PCAP traffic files for testing and simulation 
+      of enterprise-grade F5/NETSCOUT network environments.
+    </p>
+    <a class="app-link" href="https://7dq7jn4z7vcmd2br8tugpe.streamlit.app/" target="_blank">
+      Open Application
+    </a>
+  </div>
+
+  <!-- Synthetic-Data-Generator -->
+  <div class="app-section">
+    <h2>Synthetic Data Generator</h2>
+    <p>
+      Quickly generate large volumes of realistic synthetic datasets for 
+      AI/ML training, testing, and data analysis workflows.
+    </p>
+    <a class="app-link" href="https://geu9ytpucrlxm6sp4dxrdk.streamlit.app/" target="_blank">
+      Open Application
+    </a>
+  </div>
+
 </body>
 </html>
-
