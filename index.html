@@ -114,6 +114,7 @@
   <a class="app-select-link" href="#" onclick="showApp('Top8_Cyber_Attacks_Demo')">Top8_Cyber_Attacks</a><br>
   <a class="app-select-link" href="#" onclick="showApp('Cyber_Defense_Demo')">Cyber_Defense</a><br>
   <a class="app-select-link" href="#" onclick="showApp('Cyber_Defense_Demo-Original')">Cyber_Defense-Original</a><br>
+  <a class="app-select-link" href="#" onclick="showApp('SIEM-Enterprise-Demo')">SIEM-Enterprise-Demo-Platform</a><br>
 
   <a class="app-select-link" href="javascript:void(0)" onclick="showApp('supply-chain-content')">Supply Chain Risk Estimator</a><br>
   <a class="app-select-link" href="javascript:void(0)" onclick="showApp('dental-content')">Dental Practice Manager</a><br>
@@ -451,9 +452,30 @@ The program is role-based: Admin can generate data, train models, score logs, pe
             </div>
 
   
-        <div id="supply-chain-content" class="app-section app-explanation">
-        <h2>Supply Chain Risk Estimator</h2>
-       <p>
+           <div id="SIEM-Enterprise-Demo" class="app-section app-explanation">
+            <h2>SIEM-Enterprise-Demo-Platform</h2>
+            <p>      
+          
+              Application Description:
+              The SIEM Enterprise Platform provides an integrated, defense-in-depth cybersecurity capability designed to enhance situational awareness, 
+              threat detection, and compliance across Department of Defense information systems. 
+              The solution ingests and normalizes security telemetry from on-premises, cloud, and hybrid environments, including Kafka-based pipelines, 
+              AWS CloudWatch, and Azure Sentinel, into a unified analytic framework. 
+              Advanced correlation and User and Entity Behavior Analytics (UEBA) identify anomalous activity, insider threats, 
+              and compromised credentials that may evade traditional signature-based controls. 
+              The platform maps detected events and alerts directly to MITRE ATT&CK techniques and NIST SP 800-53 controls, enabling clear traceability 
+              across the Risk Management Framework (RMF) lifecycle. Role-based access controls enforce least-privilege principles while supporting SOC analyst, 
+              administrator, and executive workflows. Built-in reporting and visualization capabilities provide actionable intelligence to operators 
+              and leadership while generating audit-ready artifacts to support Authorization to Operate (ATO) decisions. 
+              This capability strengthens cyber defense readiness, reduces mean time to detect and respond, and aligns operational security outcomes 
+              with mission assurance objectives.y operations with governance and risk management priorities required for RMF-based authorization.
+            </p>
+            <a class="app-link" href="https://7adgbaxncqkegfrfm6wsn2.streamlit.app/" target="_blank">Open Application</a>        
+            </div>
+
+          <div id="supply-chain-content" class="app-section app-explanation">
+         <h2>Supply Chain Risk Estimator</h2>
+        <p>
        Analyzes SBOMs (Software Bill of Materials) for vulnerabilities, licensing, and trust risks. Built with Streamlit, 
        Pandas, Matplotlib, and AI classifiers. <em>Benefit:</em> Proactive risk classification with exportable reports.
        </p>
@@ -511,6 +533,7 @@ The program is role-based: Admin can generate data, train models, score logs, pe
 </body>
 
 </html>
+
 
 
 
